@@ -1,0 +1,12 @@
+
+API for animations in JS:
+https://greensock.com/get-started/
+
+Another page about animations in JS:
+https://slbkbs.org/jsgif/
+
+Animating a turn based game:
+https://www.reddit.com/r/gamedev/comments/1d4wnj/animating_a_turnbased_game_in_javascripthtml5/
+
+Css button generator:
+https://www.cssgenerators.net/?no=5&lang=es#

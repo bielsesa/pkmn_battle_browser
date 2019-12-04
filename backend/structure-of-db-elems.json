@@ -1,0 +1,21 @@
+{
+  "player": {
+    "name": "Brendan",
+    "email": "brendan@pkmail.com",
+    "password": "a1234",
+    "team": [
+      {
+        "nick":"Pepe",
+        "pkid": 254,
+        "stats": {"hp":230, "attack":123, "spatk":123, "defense":123, "spdef":123, "speed":300},
+        "attacks": { "attid1": 23, "attid2": 1, "attid3": 65, "attid4": 21 }
+      },
+      {
+        "nick":"Meme",
+        "pkid": 130,
+        "stats": {"hp":230, "attack":123, "spatk":123, "defense":123, "spdef":123, "speed":300},
+        "attacks": { "attid1": 23, "attid2": 1, "attid3": 65, "attid4": 21 }
+      }
+    ]
+  }
+}

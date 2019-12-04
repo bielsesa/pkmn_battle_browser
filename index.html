@@ -13,7 +13,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/index.css">
-    <script src=""></script>
+    <script src="./jslib/jquery-3.4.1.js"></script>
+    <script src="./js/index.js"></script>
 </head>
 
 <body>
@@ -23,23 +24,23 @@
     <div class="battle">
         <div class="scene">
             <div id="mon-mine">
-                <meter id="mon-mine-hp" id="mon-mine-hp" min="0" max="100" low="20" high="51" optimum="80" value="100"></meter>
+                <meter class="mon-hp" id="mon-mine-hp" min="0" max="100" low="20" high="51" optimum="80" value="100"></meter>
                 <span class="mon-name" id="mon-mine-name">Dragonite</span>
                 <span id="mon-mine-hp-left">100/100 HP</span>
                 <img class="center-sprite" id="mon-mine-sprite"> <!-- src="./img/dragonite_back.gif" -->
             </div>
             <div id="mon-adv">
                 <span class="mon-name" id="mon-adv-name">Mew</span>
-                <meter id="mon-adv-hp" id="mon-adv-hp" min="0" max="100" low="20" high="51" optimum="80" value="100"></meter>
+                <meter class="mon-hp" id="mon-adv-hp" min="0" max="100" low="20" high="51" optimum="80" value="100"></meter>
                 <img class="center-sprite" id="mon-adv-sprite"> <!-- src="./img/mew_front_shiny.gif" -->
             </div>
         </div>
         <div class="info">
-            <p>Here will be shown info about the battle.</p>
+            <p>Choose an action.</p>
         </div>
         <div class="actions">
-            <button class="btn-action">Attack</button>
-            <button class="btn-action">Monsters</button>
+            <button class="btn-action" id="btn-action-attack">Attack</button>
+            <button class="btn-action" id="btn-action-monsters">Monsters</button>
         </div>
     </div>
 </body>
